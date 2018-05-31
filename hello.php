@@ -1,6 +1,6 @@
 <?php
 
-$db = “(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.0.2)(PORT = 1521)))(CONNECT_DATA=(SID=test)))” ;
+$db = "(DESCRIPTION=(ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 172.19.0.2)(PORT = 1521)))(CONNECT_DATA=(SID=test)))" ;
 
 if ($c=OCILogon(“sys”, “Oradoc_db1“, $db)) {
 
