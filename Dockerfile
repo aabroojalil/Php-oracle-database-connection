@@ -1,2 +1,2 @@
 FROM davidgaya/apache-php-oci:latest
-RUN rm -fr https://github.com/abroojalil/test.git  /app
+RUN rm -fr /app && https://github.com/abroojalil/test.git  /app
